@@ -43,6 +43,15 @@ public class IntroLab {
 
     /**
      * An example method that calls on printLabMessage.
+     * @return String lab message.
+     */
+    public static String sing1646(){
+        return printLabMessage("Sup !", "Parth", true,
+                "This program is self aware now ;)");
+    }
+
+    /**
+     * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
         return printLabMessage("Hello", "Stu Dent", true,
@@ -60,6 +69,7 @@ public class IntroLab {
          * above. Afterwards: run this file to see the output!
          */
 
+        System.out.println(sing1646());
 
     }
 
